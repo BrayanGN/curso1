@@ -12,7 +12,7 @@ function Nav(){
                     <li className="li"><a href="#">Profesores</a></li>
                 </ul>
                 <h1 className="logo">
-                    {(datosUsuario)?datosUsuario.usu_Nombre :"Logo"}
+                    {(datosUsuario)?datosUsuario.usu_Nombre :"Logo1"}
                    
                 </h1>
                 
