@@ -25,26 +25,36 @@
     animation: shake 5s ease-in-out forwards; /* Aplica la animación al hacer hover */
 }
 .inscripcion-curso{
+    width: 14rem;
+    height: 6rem;
     position: relative;
     bottom: 65%;
-    background-color: blue;
-    width: 16vh;
-    left: 23px;
+    background-color: rgba(148, 148, 165, 0.278);
+    overflow: hidden;
+    padding-top: 3rem;
     opacity: 0;
-    height: 5vh;
     z-index: 1;
-    border-radius: 0.5vh;
+    border-radius: 1vh;
     transition: all 0.3s;
+    
+}
+.inscripcion-curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s;
 }
 .inscripcion-curso:hover{
-    box-shadow: 1px 9px 4px 7px rgb(62, 71, 73);
+    box-shadow: 1px 9px 76px 7px rgb(62, 71, 73);
     visibility: visible;
     position: relative;
     margin: auto;
-    left: 13px;
-    bottom: 10vh;
-    background-color: blue;
-    height: 20vh;
+    margin-top: 18rem;
+    background-color: rgb(252, 252, 252);
+    height: 13rem;
+    width: 100%;
+    overflow: hidden;
     opacity: 1;
     z-index: 40;
     animation-play-state: paused;

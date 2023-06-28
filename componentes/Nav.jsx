@@ -7,14 +7,14 @@ function Nav(){
         <>
             <nav className="menu">
                 <ul className="ul">
-                    <li className="li"><a href="contenedor-login">Home</a></li>
-                    <li className="li"><a href="contenedor-curso">Cursos</a></li>
+                    <li className="li"><a href="#">Home</a></li>
+                    <li className="li"><a href="#">Cursos</a></li>
                     <li className="li"><a href="#">Profesores</a></li>
                 </ul>
-                <h2 className="logo">
-                    {(datosUsuario)?datosUsuario.usu_Nombre:"Logo"}
-                </h2>
-
+                <h1 className="logo">
+                    {(datosUsuario)?datosUsuario.usu_Nombre :"Logo"}
+                   
+                </h1>
                 
             </nav>
         </>
