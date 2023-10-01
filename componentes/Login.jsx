@@ -78,6 +78,13 @@ function Login() {
         />
       </div>
       <button onClick={handleLogin} className='button-login'>Iniciar sesión</button>
+      <br />
+      <hr />
+      <br />
+      <div className='contenedor-login-a'>
+        <a href="http://localhost:5173/regis" className='a-login'>Crear cuenta</a>
+      </div>
+      
     </div>
   );
 }

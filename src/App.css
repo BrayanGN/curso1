@@ -20,7 +20,6 @@
   100% { transform: translate(0, 0); }
 }
 
-
 @keyframes fade {
   0% {
     opacity: 0.5;
@@ -56,7 +55,7 @@ h2{
   width: 60%;
   min-height:400px;
   max-height: 600px;
-  max-width: 900px;
+  max-width: 1000px;
   display: grid;
   margin: auto;
   display: grid;
@@ -73,4 +72,12 @@ h2{
 }
 .contenedor-prueba{
   min-height: 400px;
+}
+button{
+  transition: background-color 0.2s, box-shadow 0.2s,color 0.2s;
+}
+button:active{
+  background-color: white;
+  color: #036beb;
+  box-shadow: 1px 1px 1px 1px rgb(62, 71, 73);
 }
